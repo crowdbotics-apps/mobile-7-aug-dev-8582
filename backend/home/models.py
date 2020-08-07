@@ -34,3 +34,8 @@ class HomePage(models.Model):
     @property
     def field(self):
         return "body"
+
+
+class Hjkhgkjhkjhkj(models.Model):
+    "Generated Model"
+    hjgfhjgjhg = models.PositiveSmallIntegerField()

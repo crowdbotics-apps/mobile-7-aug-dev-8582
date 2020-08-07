@@ -8,9 +8,6 @@ from django.db import models
 
 class CustomText(models.Model):
     title = models.CharField(max_length=150,)
-    hgfhgfhgf = models.BooleanField(null=True, blank=True,)
-    kjhkjhkjh = models.EmailField(max_length=25, null=True, blank=True,)
-    hjgjhgjhghjg = models.URLField(null=True, blank=True,)
 
     def __str__(self):
         return self.title
